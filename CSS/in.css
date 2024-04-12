@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    padding: 10px;
+    color:white;
+    
+}
+h1{
+    font-family: "Anton"sans-serif;
+font-weight: 150;
+
+}
+
+p{
+    font-family:"Anton" sans-serif;
+    font-size: 10pt;
+    font-weight: 150;
+}
+body{    
+    background-image:url(../img-fund.jpg) ;
+    background-size: cover;
+    background-position: contain;
+    background-repeat: no-repeat;
+    
+}
+.container{    
+    width: 10rem;
+    height: 7rem;
+    padding: 5px;
+}
+
+
+
+
+img{
+    width: 11rem;
+    height: 8rem;
+    transition-duration: 0.1s;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
