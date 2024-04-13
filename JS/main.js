@@ -7,14 +7,14 @@ fetch("https://restcountries.com/v3.1/all")
        
            img.src=res[i].flags.png
            nome.appendChild(img)
-    
-   } ;  
-    
-})
+           img.addEventListener("click", function() {         
+           
+               alert("Você clicou no elemento criado!");
+            });
+        } 
+     }
+)
  
-
-
-
     
 
 
